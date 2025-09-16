@@ -4,7 +4,7 @@ import joblib
 from datetime import datetime
 
 # Load the trained model, scaler, and encoder
-model = joblib.load('Greenskill_AI_model.pkl')
+model = joblib.load('Greenskill_AI_model(1).pkl')
 scaler = joblib.load('scaler.pkl')
 encoder = joblib.load('encoder.pkl')
 
@@ -93,4 +93,5 @@ This application uses a RandomForestRegressor model to predict wind turbine powe
 - *Features Used*: Date/Time, Wind Direction, Wind Speed, and Theoretical Power Curve.
 - *Target Variable*: LV ActivePower (kW), which is the actual power generated.
 - *Model Performance*: The model has an R2 score of approximately 0.97, which indicates a high level of accuracy.
+
 """)
